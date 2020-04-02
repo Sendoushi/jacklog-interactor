@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "jsx": "preserve",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "noImplicitThis": true,
+    "typeRoots": ["./typings", "./node_modules/@types"],
+    "types": ["jest", "node", "mocha"],
+    "outDir": "module",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "./*.js",
+    "./*.ts",
+    "./**/*.ts",
+    "./**/*.js"
+  ],
+  "exclude": ["node_modules", "module", "dist", "**/*.js", "*.js"]
+}
